@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sephora</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href = "css/bootstrap.min.css" rel = "stylesheet">
+		<link href = "css/styles.css" rel = "stylesheet">
+
+
+</head>
+<body>
+
+	<div class = "navbar navbar-inverse navbar-static-top">
+		<div class = "container">
+
+			<a href = "index.html" class = "navbar-brand">Sephora</a>
+
+			<button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+				<span class = "icon-bar"></span>
+				<span class = "icon-bar"></span>
+				<span class = "icon-bar"></span>
+			</button>
+
+			<div class = "collapse navbar-collapse navHeaderCollapse">
+
+				<ul class = "nav navbar-nav navbar-right">
+					<li class = "active"><a href = "index.html">Home</a></li>
+
+					<li class = "dropdown">
+
+						<a href = "#" class = "dropdown-toggle" data-toggle = "dropdown">Makeup <b class = "caret"></b></a>
+						<ul class = "dropdown-menu">
+							<li><a href = "foundation.html">Foundation</a></li>
+							<li><a href = "concealer.html">Concealer</a></li>
+							<li><a href = "highlight.html">Highlight</a></li>
+							<li><a href = "eyeshadow.html">Eye Shadow</a></li>
+							<li><a href = "eyeliner.html">Eyeliner</a></li>
+							<li><a href = "primer.html">Primer</a></li>
+							<li><a href = "lipstick.html">Lipstick</a></li>
+						</ul>
+					</li>
+
+					<li><a href = "fragrances.html">Fragrances</a></li>
+
+					<li class = "dropdown">
+
+						<a href = "#" class = "dropdown-toggle" data-toggle = "dropdown">Tools & Brushes <b class = "caret"></b></a>
+						<ul class = "dropdown-menu">
+							<li><a href = "brushes.html">Brushes</a></li>
+							<li><a href = "br.html">Facial Cleansing/Massaging Tools</a></li>
+							<li><a href = "brc.html">Brush Cleaners</a></li>
+							<li><a href = "bd.html">Hair Dryer</a></li>
+							<li><a href = "hrfi.html">Hair Straighteners & Flat Irons</a></li>
+						</ul>
+					</li>
+
+					<li><a href = "#contact" data-toggle = "modal">Sign In</a></li>
+				</ul>
+
+			</div>
+		</div>
+	</div>
+
+	<div class = "container">
+		<div class = "jumbotron">
+			<h1 style = "text-align: center">Sephora</h1>
+			<img src = "img/sephora1.jpg">
+			<br>
+			<br>
+			<p style = "text-align: center">Welcome to Sephora, the biggest makeup collection store! We have different brands of makeup, skincare, and hair products. Shop our range of products for the best makeup experience!</p>
+		</div>
+	</div>
+
+	<div class = "container">
+		<div class "row">
+
+			<div class = "col-md-3">
+				<h3><a href = "tpm.html">Top-Rated Makeup</a></h3>					<p>Find makeup that suits your face and personality with our Top-Rated Makeup! These are the most used and most loveable!</p>
+			</div>
+
+			<div class = "col-md-3">
+				<h3><a href = "nt.html">Now Trending</a></h3>
+				<p>Check out the latest makeup trends and products to use for yourself! Use these products to follow the latest trends!</p>
+			</div>
+
+			<div class = "col-md-3">
+				<h3><a href = "edpicks.html">Editor's Picks</a></h3>
+				<p>Find your makeup artist's favorite product in the editor's picks! These are top editor's most used and most favorite products!</p>
+			</div>
+
+		</div>
+	</div>
+
+
+	<div class = "navbar navbar-default navbar-fixed-bottom">
+		<div class = "container">
+			<p class = "navbar-text pull-left">Site built by Isha Singh</p>
+			<a href = "https://www.sephora.com/" class = "navbar-btn btn-info btn pull-right">Go to real site</a>
+		</div>
+	</div>
+
+	<div class = "modal fade" id = "contact" role = "dialog">
+		<div class = "modal-dialog">
+			<div class = "modal-content">
+				<form class = "form-horizontal">
+					<div class = "modal-header">
+						<h3>Sign Up</h3>
+						<p>Get alerts for all of our sales!</p>
+					</div>
+					<div class = "modal-body">
+						<div class = "form-group">
+							<label for = "contact-name" class = "col-lg-2 control-label">First Name</label>
+							<div class = "col-lg-10">
+								<input type = "text" class = "form-control" id = "contact-name" placeholder = "Name">
+							</div>
+						</div>
+
+						<div class = "form-group">
+							<label for = "contact-name1" class = "col-lg-2 control-label">Last Name</label>
+							<div class = "col-lg-10">
+								<input type = "text" class = "form-control" id = "contact-name1" placeholder = "Name">
+							</div>
+						</div>
+
+						<div class = "form-group">
+							<label for = "contact-email" class = "col-lg-2 control-label">Email</label>
+							<div class = "col-lg-10">
+								<input type = "email" class = "form-control" id = "contact-email" placeholder = "you@example.com">
+							</div>
+						</div>
+
+						<h3>Or sign in</h3>
+
+						<div class = "form-group">
+							<label for = "contact-email" class = "col-lg-2 control-label">Email</label>
+							<div class = "col-lg-10">
+								<input type = "email" class = "form-control" id = "contact-email" placeholder = "you@example.com">
+							</div>
+						</div>
+
+						<div class = "form-group">
+							<label for = "contact-name2" class = "col-lg-2 control-label">Password</label>
+							<div class = "col-lg-10">
+								<input type = "text" class = "form-control" id = "contact-name2" placeholder = "password">
+							</div>
+						</div>
+					</div>
+					<div class = "modal-footer">
+						<a class = "btn btn-default" data-dismiss = "modal">Close</a>
+						<a class = "btn btn-primary" data-dismiss = "modal">Sign In</a>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<script src = "http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
